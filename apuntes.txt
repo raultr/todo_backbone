@@ -1,0 +1,15 @@
+Para instalar JSHint que ayuda a ver los errores del codigo en javascript:
+	sudo npm install -g jshint
+	y en sublime instalar el paquete: jshint
+	ctrl + J : nos mostrara los errores que hay en el codifo
+
+
+Probar la aplicacion TODO
+En la consola se prueba el siguiente codigo:
+	
+	#Crea una nueva tarea y esta se muestra en la vista
+	app.Todos.create({ title: 'My firstTodo item'});
+
+	#Crea una nueva tarea y pregunta si es una instancia de app.Todo
+	var secondTodo = app.Todos.create({ title: 'My second Todo item'});
+	secondTodo instanceof app.Todo // returns true
